@@ -1,0 +1,22 @@
+# Dependencias, cachés y salidas de herramientas locales
+node_modules/
+.cache/
+coverage/
+*.log
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+.openai/
+.codex/
+.idea/
+.vscode/
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.zip

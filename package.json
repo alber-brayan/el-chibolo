@@ -1,0 +1,15 @@
+{
+  "name": "el-chibolo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web del Fundo Ecoturístico El Chibolo, Ayacucho, Perú",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "check": "node --check assets/js/app.js && node --check assets/js/nature.js && node --check scripts/server.mjs && node scripts/check-assets.mjs"
+  }
+}
