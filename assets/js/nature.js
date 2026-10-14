@@ -54,7 +54,8 @@
     host.addEventListener('focusout', reset);
   }
   bind(document.querySelector('.flyer-tilt'), document.querySelector('.flyer-surface'), 10);
-  document.querySelectorAll('.experience-card').forEach(card => bind(card, card.querySelector('.card-image'), 6));
+  bind(document.querySelector('.hero-landscape'), document.querySelector('.landscape-surface'), 8);
+  document.querySelectorAll('.experience-card').forEach(card => bind(card, card.querySelector('.card-image'), 8));
 
   function syncMotion() {
     reset();

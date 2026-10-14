@@ -10,3 +10,12 @@ Todas las imágenes se guardan localmente para evitar enlaces temporales de Face
 | piscina-facebook.webp | https://www.facebook.com/reel/1304588978321349 | Fotograma a los 4 s del video público de Ecoturismo El Chíbolo |
 
 El logo y flyer provienen de los archivos entregados por el usuario. Las versiones WebP son copias optimizadas; los PNG originales permanecen en `assets/images/`.
+
+## Miniaturas de testimonios — 13/10/2026
+
+| Archivo | Video de origen | Detalle |
+| --- | --- | --- |
+| testimonio-1.jpg | https://www.youtube.com/shorts/n9a6J38wV3g | Miniatura del testimonio indicado por el cliente; obtenida de i.ytimg.com/vi/n9a6J38wV3g/hqdefault.jpg |
+| testimonio-2.jpg | https://www.youtube.com/shorts/fWGEQU8PMWI | Miniatura del testimonio indicado por el cliente; obtenida de i.ytimg.com/vi/fWGEQU8PMWI/hqdefault.jpg |
+
+Las miniaturas identifican sus videos originales y conservan los derechos de sus respectivos autores. No se sustituyeron por fotos de otras experiencias.

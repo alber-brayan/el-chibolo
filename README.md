@@ -28,10 +28,14 @@ el-chibolo-github/
 ├── assets/
 │   ├── css/
 │   │   ├── style.css          # Maquetación y diseño responsive
-│   │   └── nature.css         # Paleta de naturaleza y profundidad visual
+│   │   ├── nature.css         # Paleta de naturaleza y profundidad visual
+│   │   ├── theme.css          # Temas claro/oscuro, transparencias y detalles botánicos
+│   │   └── arrival.css        # Oficina de Huamanga y guía de llegada a Ticllas
 │   ├── js/
 │   │   ├── app.js             # Experiencias, filtros, videos y consultas
-│   │   └── nature.js          # Inclinación con puntero y control de movimiento
+│   │   ├── nature.js          # Inclinación con puntero y control de movimiento
+│   │   ├── theme.js           # Preferencia de tema y progreso de desplazamiento
+│   │   └── arrival.js         # Recorrido ilustrado interactivo y copia de dirección
 │   └── images/                # Fotografías, logo, flyer y copias optimizadas
 ├── docs/
 │   ├── FUENTES.md             # Procedencia y créditos de las imágenes
@@ -50,6 +54,7 @@ el-chibolo-github/
 - **Contenido, contactos y enlaces principales:** `index.html`.
 - **Actividades, tarifas e imágenes de las tarjetas:** arreglo `experiences` de `assets/js/app.js`.
 - **Colores y efecto 3D:** `assets/css/nature.css` y `assets/js/nature.js`.
+- **Modo oscuro, encabezado transparente y decoración botánica:** `assets/css/theme.css` y `assets/js/theme.js`.
 - **Diseño y distribución de las secciones:** `assets/css/style.css`.
 - **Fotografías y archivos de marca:** `assets/images/`.
 
@@ -114,6 +119,9 @@ Consulta [la documentación oficial de GitHub Pages](https://docs.github.com/en/
 - Galería y flyer ampliables.
 - Efecto 3D con puntero, pausa de movimiento y respeto por `prefers-reduced-motion`.
 - Menú adaptable a dispositivos móviles.
+- Botón de tema claro/oscuro: respeta la preferencia del sistema, recuerda la elección y la sincroniza entre pestañas.
+- Encabezado flotante con transparencia, separadores curvos y detalles botánicos con movimiento suave.
+- Guía de visita con oficina de información en Huamanga, rutas urbanas 8 y 14, dirección copiable y recorrido ilustrado al fundo en Ticllas; Google Maps permite iniciar la ruta.
 - Formulario que prepara una consulta por WhatsApp. La reserva se confirma directamente con El Chibolo.
 
 Los teléfonos del fundo son **942 468 851** y **929 517 122**. La información de actividades y tarifas es referencial y procede de la página original del negocio; debe actualizarse cuando cambien sus condiciones.
@@ -125,3 +133,14 @@ Información del negocio: [página original de El Chibolo](https://ranamizekazor
 Las fotografías del destino proceden de [Car Wari](https://car-wari.com/destinations/32), publicaciones públicas de [Ecoturismo El Chíbolo](https://www.facebook.com/TicllasAyacucho) y miniaturas o fotogramas de sus videos enlazados. Los créditos de Facebook se detallan en [docs/FUENTES.md](docs/FUENTES.md). El logo y flyer fueron proporcionados por el usuario; sus PNG originales se conservan junto con las versiones optimizadas.
 
 Las imágenes y la marca conservan los derechos de sus respectivos autores. Este repositorio no les asigna una licencia abierta. Para publicación comercial, confirma autorización para las fotografías de terceros o sustitúyelas por imágenes propias.
+
+## Actualización de contenido — 13/10/2026
+
+- Enlaces oficiales: YouTube @fundochibolo y TikTok @fundoelchibolo; página alternativa discreta en el pie.
+- Combo para delegaciones: S/ 25 para mayores de 10 años, S/ 15 para mayores de 5 y hasta 10 años, y entrada gratis para niños de 5 años o menos. Requiere coordinación y reserva; incluye los atractivos habilitados.
+- Restaurante con platos, condiciones de preparación y consulta por WhatsApp.
+- Tres testimonios y video exclusivo del bosque de piedras.
+- Oficina de Huamanga, rutas públicas 8 y 14, Google Maps integrado para el fundo y consulta de movilidad. No se anuncia un servicio de traslados sin confirmar.
+- Diseño con profundidad 3D: flyer protagonista, fotografías en planos, inclinación con el puntero, entradas al desplazarse y controles de movimiento reducido.
+
+El formulario incluye consultas específicas para delegaciones, restaurante y movilidad. Los testimonios de YouTube se abren en un diálogo vertical; el de Facebook enlaza al reel original. Los proveedores de video pueden limitar su reproducción; cada video de YouTube ofrece un enlace alternativo.

@@ -10,6 +10,6 @@
   },
   "scripts": {
     "start": "node scripts/server.mjs",
-    "check": "node --check assets/js/app.js && node --check assets/js/nature.js && node --check scripts/server.mjs && node scripts/check-assets.mjs"
+    "check": "node --check assets/js/app.js && node --check assets/js/nature.js && node --check assets/js/theme.js && node --check assets/js/arrival.js && node --check scripts/server.mjs && node scripts/check-assets.mjs"
   }
 }
